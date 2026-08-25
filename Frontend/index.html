@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Gastos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="receipt">
+        <header class="receipt__header">
+            <h1>Gestor de Gastos</h1>
+            <p class="receipt__tagline">registro diario · ticket N.º 001</p>
+        </header>
+
+        <form id="form-gasto">
+            <input type="text" id="categoria" placeholder="Categoría (ej: Comida)" required>
+            <input type="number" id="monto" placeholder="Monto" required>
+            <input type="text" id="descripcion" placeholder="Descripción">
+            <input type="date" id="fecha" required>
+            <button type="submit">+ Agregar gasto</button>
+        </form>
+
+        <div id="lista-gastos"></div>
+
+        <div class="receipt__total">
+            <span>TOTAL</span>
+            <span>$<span id="total">0</span></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
