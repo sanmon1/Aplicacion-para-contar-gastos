@@ -1,8 +1,8 @@
-#Gestor de gastos
+# 💰 Gestor de Gastos
 
 Aplicación **full-stack** para registrar y controlar gastos personales. Backend hecho en **Python (Flask)** con base de datos **SQLite**, y frontend en **HTML, CSS y JavaScript**, con un diseño inspirado en un ticket/boleta de compra.
 
-#Caracteristicas
+## ✨ Características
 
 - ➕ Agregar gastos (categoría, monto, descripción y fecha)
 - 📄 Ver todos los gastos guardados, en tiempo real
