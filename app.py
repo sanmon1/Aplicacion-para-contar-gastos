@@ -1,6 +1,7 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 from database import crear_tabla, insertar_gasto,obtener_todos_los_gastos, eliminar_gasto, actualizar_gasto
 from flask_cors import CORS
+
 
 app = Flask(__name__)
 CORS(app)
@@ -9,7 +10,7 @@ crear_tabla()
 
 @app.route("/")
 def home():
-    return "¡Funciona!"
+    return render_template("index.html")
 
 @app.route("/gastos")
 def obtener_gastos():

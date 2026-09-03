@@ -1,4 +1,4 @@
-const URL_BASE = "http://127.0.0.1:5000";
+const URL_BASE = "";
 
 const form = document.getElementById("form-gasto");
 const listaGastos = document.getElementById("lista-gastos");
