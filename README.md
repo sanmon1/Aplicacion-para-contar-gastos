@@ -86,6 +86,11 @@ Abrí la carpeta `Frontend/` con la extensión **Live Server** de VS Code (clic 
 | `PUT` | `/gastos/<id>` | Actualiza un gasto existente |
 | `DELETE` | `/gastos/<id>` | Elimina un gasto |
 
+## ⚠️ AVISO IMPORTANTE
+
+Esta aplicación esta funcionando con el plan gratuito de Render. Si nadie la visito en los últimos 15 minutos puede tardar en cargar entre unos 30 a 50 segundos
+en el servidor. Despues de eso, funciona con normalidad
+
 ## 👤 Autor
 
 **sanmon1**
