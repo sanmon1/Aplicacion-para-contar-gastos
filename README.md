@@ -13,6 +13,11 @@ Aplicación **full-stack** para registrar y controlar gastos personales. Backend
 
 ## 🔗 **Demo de la aplicacion:** https://aplicacion-para-contar-gastos.onrender.com
 
+## ⚠️ AVISO IMPORTANTE
+
+Esta aplicación esta funcionando con el plan gratuito de Render. Si nadie la visito en los últimos 15 minutos puede tardar en cargar entre unos 30 a 50 segundos
+en el servidor. Despues de eso, funciona con normalidad
+
 - # 🛠 Tecnologías
 
 **Backend**
@@ -84,10 +89,7 @@ La aplicación queda corriendo en http://127.0.0.1:5000.
 | `PUT` | `/gastos/<id>` | Actualiza un gasto existente |
 | `DELETE` | `/gastos/<id>` | Elimina un gasto |
 
-## ⚠️ AVISO IMPORTANTE
 
-Esta aplicación esta funcionando con el plan gratuito de Render. Si nadie la visito en los últimos 15 minutos puede tardar en cargar entre unos 30 a 50 segundos
-en el servidor. Despues de eso, funciona con normalidad
 
 ## 👤 Autor
 
