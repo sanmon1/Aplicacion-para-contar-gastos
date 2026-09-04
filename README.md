@@ -11,7 +11,7 @@ Aplicación **full-stack** para registrar y controlar gastos personales. Backend
 - 🎨 Diseño propio tipo "recibo de compra", con tipografía monoespaciada
 - 🔗 API REST propia (CRUD completo) consumida desde el frontend con `fetch`
 
-## 🔗 **Demo de la aplicacion:** [https://tu-url-de-render.onrender.com](https://aplicacion-para-contar-gastos.onrender.com)
+## 🔗 **Demo de la aplicacion:** https://aplicacion-para-contar-gastos.onrender.com
 
 - # 🛠 Tecnologías
 
