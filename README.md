@@ -58,19 +58,15 @@ Corré el servidor:
 python app.py
 ```
 
-El backend queda corriendo en `http://127.0.0.1:5000`.
+La aplicación queda corriendo en http://127.0.0.1:5000.
 
-### 3. Frontend
 
-Abrí la carpeta `Frontend/` con la extensión **Live Server** de VS Code (clic derecho sobre `index.html` → "Open with Live Server"), o cualquier servidor local de tu preferencia.
-
-> ⚠️ Frontend y backend corren en puertos distintos, por eso el proyecto usa **Flask-CORS** para permitir la comunicación entre ambos.
 
 ---
 
 ## 🚀 Uso
 
-1. Con el backend y el frontend corriendo, abrí la página del frontend en el navegador.
+1. Con el servidor corriendo, abrí http://127.0.0.1:5000 en el navegador.
 2. Completá el formulario (categoría, monto, descripción, fecha) y hacé clic en **"+ Agregar gasto"**.
 3. El gasto aparece al instante en la lista, y el total se actualiza automáticamente.
 4. Para eliminar un gasto, hacé clic en el botón **✕** de la fila correspondiente.
